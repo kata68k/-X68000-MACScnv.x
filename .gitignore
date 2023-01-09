@@ -1,0 +1,6 @@
+ #.gitignore が置かれたディレクトリ内のfileを除外
+ MACSPHIS.LOG
+ PlayList.txt
+ *.o
+ *.lzh
+ *.zip
