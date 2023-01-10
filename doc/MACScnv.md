@@ -41,7 +41,7 @@ WindowsとX68000間でデータのやり取りができること。
 | 6  | txs.x            |        | 画像データをMACS形式で保存          |MACS116.LZHに同梱|
 | 7  | blk.x            |        | バイナリを合体させる                |MACS116.LZHに同梱  |
 | 8  | APICG.r          |        | 画像ローダー＆セーバー              |リンク参照|
-| 9  | YGMC.X           |        | 画面モードを変更する                |どこ？|
+| 9  | YGMC.X           |        | 画面モードを変更する                |リンク参照|
 | 10 | HAS.x            |        | アセンブラ                          |リンク参照|
 | 11 | hlk.r            |3.01+15 | リンカ                              |リンク参照|
 | ~~12~~ | ~~CV.X~~             |        | ~~ファイルコンバーター~~                |~~リンク参照~~|
@@ -63,6 +63,8 @@ WindowsとX68000間でデータのやり取りができること。
 - [hlk](https://github.com/kg68k/hlk-ev/releases/):立花@桑島技研さんのGitHub
 - ~~[CV](http://retropc.net/x68000/software/develop/cv/cv_x/):Makoto KamadaさんのX68000 LIBRARYのページ~~
 - [pcm3pcm.x](https://www.vector.co.jp/soft/x68/art/se019752.html):Vectorのページ
+- [YGMC.X](http://most.bigmoney.biz/g0org/x68tools/graphic/conv/ygmc100.lzh):x68toolsのページ
+
 ## 手順
 
 ---
