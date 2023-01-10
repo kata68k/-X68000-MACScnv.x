@@ -46,7 +46,8 @@ WindowsとX68000間でデータのやり取りができること。
 | 11 | hlk.r            |3.01+15 | リンカ                              |リンク参照|
 | ~~12~~ | ~~CV.X~~             |        | ~~ファイルコンバーター~~                |~~リンク参照~~|
 | 13 | pcm3pcm.x        |        | WAVからPCMへ変換する                |リンク参照|
-| 14 | MACScnv.x        |        | MACSデータ作成補助                  |X68K BBS|
+| 14 | TS16DRVp.X       |        | XEiJ、XM6TypeG、PhantomX、060turbo、TS-6BE16 などで実装されるハイメモリ(ローカルメモリ)を扱うドライバ                 |X68K BBS|
+| 15 | MACScnv.x        |        | MACSデータ作成補助                  |X68K BBS|
 
 | No.| ファイル名       | 概要                |所在               |
 |----|------------------|---------------------|-------------------|
@@ -64,6 +65,8 @@ WindowsとX68000間でデータのやり取りができること。
 - ~~[CV](http://retropc.net/x68000/software/develop/cv/cv_x/):Makoto KamadaさんのX68000 LIBRARYのページ~~
 - [pcm3pcm.x](https://www.vector.co.jp/soft/x68/art/se019752.html):Vectorのページ
 - [YGMC.X](http://most.bigmoney.biz/g0org/x68tools/graphic/conv/ygmc100.lzh):x68toolsのページ
+- [TS16DRVp.X](https://x68kbbs.com/uploader/?a=Hau_miyu&f=TS16DRVp.ZIP):x68k BBS
+
 
 ## 手順
 
