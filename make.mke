@@ -8,9 +8,9 @@ LKFLAGS	= -r -z-stack=131072
 INC	= 
 LIBS	= libc.a libgnu.a libdos.a libiocs.a
 
-MACScnv2.x:	MACScnv2.o
+MACScnv.x:	MACScnv.o
 	$(LD) $^ -o $@ -l $(LIBS)
 	
-MACScnv2.o:	MACScnv2.c
+MACScnv.o:	MACScnv.c
 	$(CC) $(CFLAGS) -c $<
 
