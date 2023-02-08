@@ -1,7 +1,10 @@
 echo off
 echo ¶¬•¨‚¨‚æ‚Ñ’†ŠÔ¶¬•¨‚ğíœ‚µ‚Ü‚·
-del *.blk
-del *.o
+del /s Tx*
+del /s Tp*
+del /s *.blk
+del /s *.o
+del /s *.PCM
 del MACSsrc.x
 del MACSsrc.s
 del 0_MakeTxTp.bat

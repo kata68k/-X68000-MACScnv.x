@@ -6,11 +6,16 @@ AS	= has
 LD	= hlk
 LKFLAGS	= -r -z-stack=131072
 INC	= 
-LIBS	= libc.a libgnu.a libdos.a libiocs.a
+LIBS	= libc.a libgnu.a libdos.a libiocs.a user/hupairlib.l
 
-MACScnv.x:	MACScnv.o
+MACScnv.x:	MACScnv.o FileManager.o wave.o
 	$(LD) $^ -o $@ -l $(LIBS)
 	
 MACScnv.o:	MACScnv.c
 	$(CC) $(CFLAGS) -c $<
-
+
+FileManager.o:	FileManager.c
+	$(CC) $(CFLAGS) -c $<
+
+wave.o:	wave.c
+	$(CC) $(CFLAGS) -c $<
